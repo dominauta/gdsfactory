@@ -10,7 +10,7 @@ from typing import Any, Callable, Optional, Tuple, Union, List
 import numpy as np
 import omegaconf
 from omegaconf import DictConfig
-from pydantic import BaseModel, Field, validator
+from pydantic.v1 import BaseModel, Field, validator
 from typing_extensions import Literal
 
 from gdsfactory.config import PATH, logger

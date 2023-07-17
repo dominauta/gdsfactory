@@ -6,7 +6,7 @@ from functools import partial
 from typing import Dict, Optional, Union
 
 import meep as mp
-import pydantic
+import pydantic.v1
 from meep import mpb
 
 import gdsfactory as gf

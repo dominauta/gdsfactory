@@ -23,7 +23,7 @@ from typing import Any, Optional, Union, ClassVar, TYPE_CHECKING, List
 
 import loguru
 from loguru import logger as logger
-from pydantic import BaseModel, BaseSettings, Field
+from pydantic.v1 import BaseModel, BaseSettings, Field
 from rich.console import Console
 from rich.table import Table
 

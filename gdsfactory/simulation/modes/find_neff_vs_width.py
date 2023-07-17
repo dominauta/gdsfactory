@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import meep as mp
 import numpy as np
 import pandas as pd
-import pydantic
+import pydantic.v1
 from tqdm.auto import tqdm
 
 from gdsfactory.simulation.modes.find_modes import find_modes_waveguide

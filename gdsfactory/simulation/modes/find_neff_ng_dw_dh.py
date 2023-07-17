@@ -13,7 +13,7 @@ import pathlib
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import pydantic
+import pydantic.v1
 from scipy.interpolate import interp2d
 
 from gdsfactory.config import PATH

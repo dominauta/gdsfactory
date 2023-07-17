@@ -12,7 +12,7 @@ from typing import Any, Dict, List, Optional
 
 import meep as mp
 import numpy as np
-import pydantic
+import pydantic.v1
 import yaml
 from tqdm.auto import tqdm
 

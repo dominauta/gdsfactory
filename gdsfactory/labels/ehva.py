@@ -4,7 +4,7 @@ from functools import partial
 from typing import Dict, List, Optional, Tuple
 
 import flatdict
-import pydantic
+import pydantic.v1
 
 import gdsfactory as gf
 from gdsfactory.name import clean_name

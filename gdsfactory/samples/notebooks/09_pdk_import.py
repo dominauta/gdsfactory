@@ -279,7 +279,7 @@ print(gdsfactory_script)
 #
 # ```
 #
-# from pydantic import BaseModel
+# from pydantic.v1 import BaseModel
 #
 #
 # class LayerMap(BaseModel):

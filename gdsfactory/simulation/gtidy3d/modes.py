@@ -17,7 +17,7 @@ import pathlib
 from typing import Any, Optional, Sequence, Tuple, Union
 
 import numpy as np
-import pydantic
+import pydantic.v1
 import tidy3d as td
 import xarray
 from tidy3d.plugins import waveguide

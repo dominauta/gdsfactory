@@ -3530,7 +3530,7 @@ from functools import partial to all files and makes the docs cleaner by renderi
 - add pydantic validate_arguments decorator. @pp.cell_with_validator
 
 ```
-from pydantic import validate_arguments
+from pydantic.v1 import validate_arguments
 @validate_arguments
 ```
 

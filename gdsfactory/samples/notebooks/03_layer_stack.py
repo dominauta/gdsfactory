@@ -28,7 +28,7 @@
 #
 
 # +
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 from typing import Tuple
 
 import gdsfactory as gf

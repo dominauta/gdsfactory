@@ -4,7 +4,7 @@ from __future__ import annotations
 from typing import List, Optional
 
 import flatdict
-import pydantic
+import pydantic.v1
 
 import gdsfactory as gf
 from gdsfactory.name import clean_name

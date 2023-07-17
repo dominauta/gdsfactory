@@ -6,7 +6,7 @@ from typing import Optional, Tuple, Union
 
 import meep as mp
 import numpy as np
-import pydantic
+import pydantic.v1
 from meep import mpb
 
 mpb.Verbosity(0)

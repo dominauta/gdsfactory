@@ -41,7 +41,7 @@ from typing import Tuple
 from functools import partial
 
 import pytest
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 from pytest_regressions.data_regression import DataRegressionFixture
 
 from gdsfactory.component import Component

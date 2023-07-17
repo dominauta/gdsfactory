@@ -20,7 +20,7 @@ import numpy as np
 import pyvista as pv
 import tidy3d as td
 from devsim.python_packages import model_create, simple_physics
-from pydantic import BaseModel, Extra
+from pydantic.v1 import BaseModel, Extra
 from scipy.interpolate import griddata
 
 from gdsfactory.simulation.disable_print import disable_print, enable_print

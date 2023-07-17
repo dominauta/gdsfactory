@@ -4,7 +4,7 @@ from __future__ import annotations
 import hashlib
 from typing import Any
 
-import pydantic
+import pydantic.v1
 
 MAX_NAME_LENGTH = 32
 

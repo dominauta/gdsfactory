@@ -38,7 +38,7 @@ from functools import partial
 from typing import Callable, Optional, Union
 
 import numpy as np
-from pydantic import validate_arguments
+from pydantic.v1 import validate_arguments
 
 import gdsfactory as gf
 from gdsfactory.component import Component

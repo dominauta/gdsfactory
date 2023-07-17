@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING, Dict
 
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 
 if TYPE_CHECKING:
     from gdsfactory.typings import MaterialSpec

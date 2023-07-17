@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import List
 
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 
 import gdsfactory as gf
 from gdsfactory.geometry.write_drc import write_drc_deck_macro

@@ -7,7 +7,7 @@ from typing import Dict, Optional
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
-import pydantic
+import pydantic.v1
 import tidy3d as td
 from tidy3d.plugins.mode import ModeSolver
 

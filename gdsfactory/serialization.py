@@ -11,7 +11,7 @@ from typing import Any, Dict
 import gdstk
 import numpy as np
 import orjson
-import pydantic
+import pydantic.v1
 import toolz
 from omegaconf import DictConfig, OmegaConf
 

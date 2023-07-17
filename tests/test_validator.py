@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import pydantic
+import pydantic.v1
 import pytest
 
 import gdsfactory as gf

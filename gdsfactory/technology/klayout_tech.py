@@ -7,7 +7,7 @@ import pathlib
 import xml.etree.ElementTree as ET
 from typing import Dict, List, Optional, Tuple
 
-from pydantic import BaseModel, Field
+from pydantic.v1 import BaseModel, Field
 
 from gdsfactory.config import PATH
 from gdsfactory.technology import LayerStack, LayerViews

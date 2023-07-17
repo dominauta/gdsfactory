@@ -13,7 +13,7 @@ from functools import partial
 from inspect import getmembers
 from typing import Any, Callable, Dict, List, Optional, Tuple, TypeVar, Union
 
-from pydantic import BaseModel, Field, validate_arguments
+from pydantic.v1 import BaseModel, Field, validate_arguments
 from typing_extensions import Literal
 from gdsfactory.add_pins import add_pins_inside1nm, add_pins_siepic_optical
 from gdsfactory.serialization import clean_dict
@@ -161,7 +161,7 @@ class CrossSection(BaseModel):
     name: Optional[str] = None
     mirror: bool = False
 
-    def __init__(__pydantic_self__, **data: Any) -> None:
+    def __init__(self, **data: Any) -> None:
         """Extend BaseModel init to process mirroring."""
         super().__init__(**data)
 

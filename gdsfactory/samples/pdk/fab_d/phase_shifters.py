@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from functools import partial
 
-import pydantic
+import pydantic.v1
 
 import gdsfactory as gf
 from gdsfactory.typings import Layer
