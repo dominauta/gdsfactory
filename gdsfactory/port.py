@@ -98,14 +98,14 @@ class Port(BaseModel):
     model_config = ConfigDict(arbitrary_types_allowed=True, extra="allow", frozen=False)
 
     def __hash__(self) -> int:
-        return self.model_hash()
+        return hash(self.model_dump_json())
 
     def __init__(self, name, **data) -> None:
         super().__init__(name=name, **data)
 
-    @field_validator("center")
-    def set_center(cls, v):
-        return np.array(v, dtype="float64")
+    # @field_validator("center")
+    # def set_center(cls, v):
+    #     return np.array(v, dtype="float64")
 
     @field_validator("orientation")
     def set_orientation(cls, v):

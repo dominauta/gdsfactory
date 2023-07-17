@@ -502,7 +502,10 @@ class ComponentReference(BaseModel, _GeometryHelper):
             )
             if name not in self._local_ports:
                 self._local_ports[name] = port.copy()
-            self._local_ports[name].center = new_center
+            self._local_ports[name].center = (
+                float(new_center[0]),
+                float(new_center[1]),
+            )
             self._local_ports[name].orientation = (
                 mod(new_orientation, 360) if new_orientation else new_orientation
             )
